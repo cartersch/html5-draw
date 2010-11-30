@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html manifest = "canvas.manifest">
+<head>
+	
+	 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	 <title>html5 draw</title>
+	 
+	 <link rel="stylesheet" href="jqtouch/jqtouch/jqtouch.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="jqtouch/themes/apple/theme.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	
+	<link rel="stylesheet" href="css/main.css" type="text/css">
+	<script src="jqtouch/jqtouch/jquery-1.4.2.min.js"></script>
+	<script src="jqtouch/jqtouch/jqtouch.js"></script>
+	<script>
+		var jqt = new $.jQTouch({
+												icon: 'icon.png',
+												startupScreen: 'startup.png'
+												});
+	</script>
+
+</head>
+
+<body>
+<div id="jqt">
+	<div id="home">
+		<div class="toolbar">
+			<h1>HTML5 Draw</h1>
+			
+		</div>
+		
+		<canvas id="the_canvas" width="318" height="372">
+			<p>your browser does not support canvas</p>
+		</canvas>
+		<ul class="bottombar individual" style="margin-top: 1px;">
+			<li class="color_notice" style="padding-top: 1px;"><a href="#colors" class="slideup"><span style="font-size: 6pt;">tiny</span></a></li>
+			<li id="clear_page" style="padding-top: 1px;">Clear</li>
+		</ul>
+	</div><!--end home-->
+	<div id="colors">
+		<div class="toolbar">
+			<h1>Colors</h1>
+			<a href="#" class="back">Back</a>
+		</div>
+		<div class="info" style="height: 120px;">
+			<div class="color_choices">
+					<div id ="black" class="color"></div>
+					<div id="blue" class="color"></div>
+					<div id ="yellow" class="color"></div>
+					<div id="red" class="color"></div>
+					<div id="green" class="color"></div>
+			</div>
+			<div class="color_choices">
+					<div id ="purple" class="color"></div>
+					<div id="sienna" class="color"></div>
+					<div id ="white" class="color"></div>
+					<div id="palevioletred" class="color"></div>
+					<div id="darkorange" class="color"></div>
+			</div>	
+		
+		</div> <!--end color info-->
+		<h2>Brush Size</h2>
+			<div class="info" >
+				<ul class="brush_choices rounded">
+					<li id="1" class="brush_selected"><span style="font-size: 6pt;">tiny</span></li>
+					<li id="3"><span style="font-size: 10pt;">small</span></li>
+					<li id="5"><span style="font-size: 12pt;">medium</span></li>
+					<li id="10"><span style="font-size: 16pt;">big</span></li>
+					<li id ="25"><span style="font-size: 20pt;">huge</span></li>
+				</ul>
+			</div>
+		
+	</div><!--end colors-->
+</div>
+</body>
+</html>
+<script src="js/canvas.js"></script>
+<script src="js/mobile-bookmark-bubble.js"></script>
+<script src="js/bubble.js"></script>
+<script type="text/javascript">
+</script>

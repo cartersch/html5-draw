@@ -1,0 +1,18 @@
+CACHE MANIFEST
+index.html
+css/main.css
+js/canvas.js
+jqtouch/jqtouch/jquery-1.4.2.min.js
+jqtouch/jqtouch/jqtouch.js
+jqtouch/jqtouch/jqtouch.css
+jqtouch/themes/apple/theme.css
+jqtouch/themes/apple/img/backButton.png
+jqtouch/themes/apple/img/button.png
+jqtouch/themes/apple/img/toolbarBackground.png
+icon.png
+startup.png
+
+#version 0.02 created on 2010-10-26 00:51
+#version 0.03 created on 2010-10-26 00:55 removed colors button in upper right corner
+#version 0.03 created on 2010-10-30 06:55 added palevioletred color. fixed darkorange color
+#version 0.03 created on 2010-11-03 21:42 trying something to make smoother lines
